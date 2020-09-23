@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Anton', sans-serif;
+}
+
+header {
+  height: 5vw;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #3d3f52;
+}
+.menu ul {
+  display: inline-flex;
+  margin: 2vw;
+}
+.menu ul li {
+  list-style: none;
+  margin: 0 2vw;
+  color: #b2b1b1;
+  cursor: pointer;
+  width: 7vw;
+  font-size: 1.5vw;
+}
+
+.fallguys {
+  width: 30vw;
+  height: 40vw;
+  position: absolute;
+  right: 3vw;
+  top: 3vw;
+}
+
+.active {
+  color: #19dafa !important;
+  text-decoration: none;
+}
+
+.signup-btn {
+  font-size: 1vw;
+  top: 1vw;
+  right: 5vw;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  border: 0.15vw solid;
+  border-radius: 1.5vw;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.signup-btn:hover {
+  opacity: 70%;
+}
+.log-in {
+  top: 4vw;
+  right: 2vw;
+  font-size: 0.8vw;
+  position: absolute;
+  color: #fff;
+}
+
+.signup-btn span {
+  display: block;
+  padding: 0.6vw 1vw;
+}
+.banner {
+  width: 80%;
+  height: 70%;
+  top: 12vw;
+  left: 13vw;
+  position: absolute;
+  color: #545575;
+}
+.description {
+  width: 100%;
+  float: left;
+}
+.description h1 {
+  font-size: 6vw;
+  width: 50vw;
+  margin-left: -5vw;
+  margin-top: 1vw;
+}
+.description p {
+  width: 30vw;
+  font-size: 1.4vw;
+  margin: 3vw 0 3vw 4vw;
+  line-height: 2.5vw;
+  color: #474747;
+}
+
+.color-green {
+  color: rgb(5, 165, 104);
+  margin-top: 0vw !important;
+}
+
+.button:hover {
+  opacity: 50%;
+}
+
+.Upcoming {
+  height: 140%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(UpcomingPictures/SkullsAndBones.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pictures {
+  color: #000000;
+  position: absolute;
+  bottom: -5vw;
+}
+
+.headerpicture {
+  opacity: 95%;
+}
+
+.games-body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(Games.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.games-banner {
+  width: 80%;
+  height: 40%;
+  top: 30vw;
+  left: 13vw;
+  position: absolute;
+  color: #ffffff;
+}
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+
+.main-body {
+  flex-grow: 1;
+}
+
+.main-footer-startpage {
+  min-height: 140%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-footer-upcoming {
+  min-height: 200.4%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-footer-games {
+  min-height: 110%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-footer-news {
+  min-height: 145%;
+  display: flex;
+  flex-direction: column;
+}
+
+.games-container {
+  width: 100%;
+  height: 100%;
+  background: #3d3f52;
+}
+
+.tag {
+  color: #ffffff;
+}
+
+.tag:hover {
+  opacity: 40%;
+}
+
+.game-content {
+  padding: 1vw;
+  height: 23vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+}
+
+.Cyberpic {
+  margin: auto;
+  overflow: auto;
+  bottom: -30rem;
+  width: 10rem;
+  height: 17.5rem;
+  margin: 3rem, 3rem, 3rem, 3rem;
+  position: absolute;
+  top: 45vw;
+  left: center;
+}
+
+@keyframes showTopText {
+  0% {
+    transform: translate3d(0, 100%, 0);
+  }
+  100%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes showBottomText {
+  0% {
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animated-title {
+  color: rgb(255, 175, 55);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 90vmin;
+  left: 50%;
+  position: absolute;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  width: 90vmin;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 12vmin;
+  padding: 2vmin 0;
+  position: absolute;
+}
+.animated-title > div div span {
+  display: block;
+}
+.animated-title > div.text-top {
+  border-bottom: 1vmin solid rgb(255, 255, 255);
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: #32a5ad;
+}
+.animated-title > div.text-bottom {
+  bottom: 0;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 0.7s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+}
+
+@media (max-width: 1270px) {
+  header {
+    height: 10vw;
+    height: fixed;
+  }
+  .menu ul li {
+    list-style: none;
+    margin: 0 4vw;
+    color: #b2b1b1;
+    cursor: pointer;
+    width: 8vw;
+    font-size: 3.5vw;
+  }
+
+  .menu ul {
+    display: inline-flex;
+    margin: 4vw;
+  }
+
+  .description p {
+    width: 30vw;
+    font-size: 3vw;
+    margin: 3vw 0 3vw 4vw;
+    line-height: 5vw;
+    color: #474747;
+  }
+  .signup-btn {
+    font-size: 3vw;
+    top: 3.7vw;
+    right: 4vw;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 0.15vw solid;
+    border-radius: 1.5vw;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
+  .log-in {
+    top: 1vw;
+    right: 4vw;
+    font-size: 2vw;
+    position: absolute;
+    color: #fff;
+  }
+  .main-footer-startpage {
+    min-height: 160%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-footer-upcoming {
+    min-height: 200.4%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-footer-games {
+    min-height: 110%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-footer-news {
+    min-height: 165%;
+    display: flex;
+    flex-direction: column;
+  }
+}
