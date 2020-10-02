@@ -1,0 +1,145 @@
+html,
+body {
+  height: 120%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(Games.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  height: 5vw;
+}
+
+.headerpicture {
+  opacity: 95%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #3d3f52;
+}
+.menu ul {
+  display: inline-flex;
+  margin: 2vw;
+}
+.menu ul li {
+  list-style: none;
+  margin: 0 2vw;
+  color: #b2b1b1;
+  cursor: pointer;
+  width: 7vw;
+  font-size: 1.5vw;
+}
+.active {
+  color: #19dafa !important;
+  text-decoration: none;
+}
+
+.signup-btn {
+  font-size: 1vw;
+  top: 1vw;
+  right: 5vw;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  border: 0.15vw solid;
+  border-radius: 1.5vw;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.signup-btn:hover {
+  opacity: 70%;
+}
+.log-in {
+  top: 4vw;
+  right: 2vw;
+  font-size: 0.8vw;
+  position: absolute;
+  color: #fff;
+}
+
+.signup-btn span {
+  display: block;
+  padding: 0.6vw 1vw;
+}
+.banner {
+  width: 80%;
+  height: 70%;
+  top: 30vw;
+  left: 13vw;
+  position: absolute;
+  color: #ffffff;
+}
+.description {
+  width: 100%;
+  float: left;
+}
+.description h1 {
+  font-size: 6vw;
+  width: 50vw;
+  margin-left: -5vw;
+  margin-top: 1vw;
+}
+.description p {
+  width: 30vw;
+  font-size: 1.4vw;
+  margin: 3vw 0 3vw 4vw;
+  line-height: 2.5vw;
+  color: #43c70f;
+}
+
+.color-red {
+  color: rgb(5, 165, 104);
+  margin-top: 0vw !important;
+}
+
+.button:hover {
+  opacity: 50%;
+}
+
+.foot {
+  bottom: -19vw;
+  right: 35vw;
+  position: absolute;
+}
+
+@media (max-width: 1270px) {
+  .menu ul li {
+    list-style: none;
+    margin: 0 3vw;
+    color: #b2b1b1;
+    cursor: pointer;
+    width: 6.5vw;
+    font-size: 2.7vw;
+  }
+  .description p {
+    width: 30vw;
+    font-size: 3vw;
+    margin: 3vw 0 3vw 4vw;
+    line-height: 5vw;
+    color: #474747;
+  }
+  .signup-btn {
+    font-size: 3vw;
+    top: 2vw;
+    right: 4vw;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 0.15vw solid;
+    border-radius: 1.5vw;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
+  .log-in {
+    top: 8.5vw;
+    right: 5.5vw;
+    font-size: 0.8vw;
+    position: absolute;
+    color: #fff;
+  }
+}

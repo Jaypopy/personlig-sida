@@ -33,11 +33,7 @@ padding: 1.4vw 0;
     margin: 8px 0;
     border-bottom: 1px solid #e0a016;
 }
-.textbox i{
-width: 2vw;
-float: left;
-text-align: center;
-}
+
 .textbox input{
     border: none;
     outline: none;
